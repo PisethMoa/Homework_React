@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  height: 200vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* product */
+.content{
+  margin-top:10px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+h1{
+  padding-top:20px; 
+}
+
+/* feedback */
+.Reply{
+  margin-top:20px;
+}
+.row{
+  padding :10px;
+  justify-content: space-around;
+  
+}
+/* footer */
+.bottom-nva {
+  height: 20px;
+  background-color: black;
+}
+.Wapper {
+  width: 890px;
+  margin: auto;
+  list-style: none;
+}
+.cols {
+  float: left;
+  width: 33%;
+  padding-top: 10px;  
+
+}
+.cols img{
+  border-radius: 20px;
+}
+#Bottom {
+  text-align: center;
+}
